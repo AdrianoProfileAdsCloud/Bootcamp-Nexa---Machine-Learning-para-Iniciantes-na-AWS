@@ -13,7 +13,7 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
 ## 🎯 Objetivos Deste Desafio de Projeto.
 
-![image](/media/adriano/ProjetosCursos1/Projetos e BootCamps/Bootcamp Nexa - Machine Learning para Iniciantes na AWS/PRJ- Machine Learning AWS/imagens/Busca por Serviço - SageMaker.png)
+![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/Busca%20por%20Servi%C3%A7o%20-%20SageMaker.png)
 
 - Criar previsões de estoque baseadas em Machine Learning (ML) com o serviço da AWS SageMaker Canvas.
 
