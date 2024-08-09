@@ -12,7 +12,7 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
 
 ## 🎯 Objetivos Deste Desafio de Projeto.
-- Criar previsões de estoque baseadas em Machine Learning (ML) com o serviço da AWS SageMaker Canvas.Guiado pelos processos da imagem no SageMaker.
+- Criar previsões de estoque baseadas em Machine Learning (ML) com o serviço da AWS SageMaker Canvas.Guiado pelos processos demostrado na imagem no SageMaker.
 
   ![image](https://github.com/digitalinnovationone/lab-aws-sagemaker-canvas-estoque/assets/730492/72f5c21f-5562-491e-aa42-2885a3184650)
 
