@@ -50,6 +50,15 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
 ![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/CriandoUmModeloCustomizado.png)
 
+<br>
+
+- Inclusivel entre essas configurações se encontra uma opção muito útil para o que estamos tentando prever que e a programação de feriados.
+
+  <br>
+
+  ![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/FeriadosParaPrecisaodaPrevisao.png)
+
+
 
 ### 3. Selecionar Dataset
 
