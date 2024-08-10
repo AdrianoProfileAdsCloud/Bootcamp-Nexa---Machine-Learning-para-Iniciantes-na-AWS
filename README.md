@@ -61,7 +61,12 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
  
 <br>
 
--   No SageMaker Canvas, importe o dataset que você selecionou.
+-   No SageMaker Canvas, importe o dataset que foi criado com o auxilio do ChatGPT.
+<br>
+
+![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/Selecionando%20o%20Dataset.png)
+
+<br>
 -   Configure as variáveis de entrada e saída de acordo com os dados.
 -   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
 
