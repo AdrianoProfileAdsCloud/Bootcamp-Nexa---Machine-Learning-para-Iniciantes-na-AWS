@@ -111,7 +111,15 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
   ![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/FeriadosParaPrecisaodaPrevisao.png)
   
  
--   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
+-  Antes iniciar o treinamento do modelo. O pode levar algum tempo, dependendo do tamanho do dataset. Devemos ter em mente entre qual processo devemos escolher.
+   Entre: Standart Build ou Quick Build, sendo que:
+   Ao escolher Standart Build o processo será mais lento para criação, no entanto teremos um modelo mais consistente, mais preciso.
+   Entretanto ao ecolher Quick Build o processo de criação será mais rápido, o que resultará em um modelo menos consistente,portanto menos preciso.
+<br>
+
+  ![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/TiposDeBuild.png)
+
+<br>
 
 >## :keyboard: Segue o prompt utilizado para gerar os dados para treinar o Modelo.
 >
