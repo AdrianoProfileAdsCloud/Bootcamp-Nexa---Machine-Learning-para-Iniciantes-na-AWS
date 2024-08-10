@@ -20,6 +20,13 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 ## 🚀 Passo a Passo
 
 ### 1. Criar um dominio.
+
+-   Após ter criado a conta na AWS. Busque pelo Serviço do SageMaker.
+
+![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/Busca%20por%20Servi%C3%A7o%20-%20SageMaker.png)
+
+<br>
+
 - Será neste Dominio que ficara centralizadas todas configurações e projetos futuros. Servindo também para outras aplicaçoes que compoem o ecosistema SageMaker.
 
 ![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/CriarDominioSageCanvas.png)
@@ -39,9 +46,6 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
 ### 1. Selecionar Dataset
 
--   Após ter criado a conta na AWS. Busque pelo Serviço do SageMaker.
-
-![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/Busca%20por%20Servi%C3%A7o%20-%20SageMaker.png)
 
 
 
