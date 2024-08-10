@@ -54,7 +54,39 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
 ### 3. Selecionar Dataset
 
-- Seguindo nossos Objetivos.O próximo passo e selecionar nosso Dataset.Neste ponto é muito interessante, porque ele já nós traz uma serie de Dataset pre estabelecidos pronto para treinar e testar nossos modelo de ML.Como  mostra a imagem abaixo. Para este projeto como já dito anteriormente utilizarei um criado por mim com auxilio de IA(ChatGPT).Clicando no botão <<Create Dataset>>
+- Seguindo nossos Objetivos.O próximo passo e selecionar nosso Dataset.Neste ponto é muito interessante, porque ele já nós traz uma serie de Dataset pre estabelecidos pronto para treinar e testar nossos modelo de ML.Como  mostra a imagem abaixo. Para este projeto como já dito anteriormente utilizarei um criado por mim com auxilio de IA(ChatGPT).
+
+<br>
+>## :keyboard: Segue o prompt utilizado para gerar os dados para treinar o Modelo.
+>
+>ChatGPT/Copilot：
+
+|   Ação   |                                     Prompt                                                                                                                                                                                                                                                                         |
+| :------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Conteúdo | Crie uma massa de dados para machine learning de pelo menos 1000 registros de produtos de caracter alimentícios 
+|          | de consumo básico diário como Arroz, Feijão, Óleo, Leite,  Farinha de Trigo etc , conforme as regras abaixo:
+|          | > Crie uma coluna identificadora ID_PRODUTO
+|          | > Crie uma coluna NOME_DO_PRODUTO
+|          | > Crie uma coluna PRECO_PODUTO
+|          | >  Crie uma coluna QTD_EM_ESTOQUE
+|          | >  Crie uma coluna QTD_PRODUTO_VENDIDO
+|          | > Crie uma coluna PRODUTO_EM_PROMOCAO
+|          | > Crie uma coluna QTD_DIAS_EM_PROMOCAO
+|  Regras  | > Crie uma coluna DATA_COMPRA
+|          | > Gere uma massa de dados para Machine learning de forma consistente, de forma que tenha uma boa variação de dados nas colunas QTD_PRODUTO_VENDIDO e QTD_DIAS_EM_PROMOCAO ,  |          |    com base no estoque 
+|          | > Marcar PRODUTO_EM_PROMOCAO como SIM e NÃO 
+|          | > Distribuir uniformente as datas de compra
+|          | > Distribuír os dados  mensalmente, não ultrapassar 12 meses.
+|          | > Exportar para um arquivo csv |
+<br> 
+-   Com o csv criado apartir do prompt acima então agora de vemos selecionar o o dataset que será usado para treinar o modelo de previsão de estoque.
+-   Faça o upload do dataset no SageMaker Canvas.
+
+
+
+
+
+- Clicando no botão <<Create Dataset>>
 
 <br>
 
@@ -118,33 +150,6 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 <br>
 
   ![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/TiposDeBuild.png)
-
-<br>
-
->## :keyboard: Segue o prompt utilizado para gerar os dados para treinar o Modelo.
->
->ChatGPT/Copilot：
-
-|   Ação   |                                     Prompt                                                                                                                                                                                                                                                                         |
-| :------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Conteúdo | Crie uma massa de dados para machine learning de pelo menos 1000 registros de produtos de caracter alimentícios 
-|          | de consumo básico diário como Arroz, Feijão, Óleo, Leite,  Farinha de Trigo etc , conforme as regras abaixo:
-|          | > Crie uma coluna identificadora ID_PRODUTO
-|          | > Crie uma coluna NOME_DO_PRODUTO
-|          | > Crie uma coluna PRECO_PODUTO
-|          | >  Crie uma coluna QTD_EM_ESTOQUE
-|          | >  Crie uma coluna QTD_PRODUTO_VENDIDO
-|          | > Crie uma coluna PRODUTO_EM_PROMOCAO
-|          | > Crie uma coluna QTD_DIAS_EM_PROMOCAO
-|  Regras  | > Crie uma coluna DATA_COMPRA
-|          | > Gere uma massa de dados para Machine learning de forma consistente, de forma que tenha uma boa variação de dados nas colunas QTD_PRODUTO_VENDIDO e QTD_DIAS_EM_PROMOCAO ,  |          |    com base no estoque 
-|          | > Marcar PRODUTO_EM_PROMOCAO como SIM e NÃO 
-|          | > Distribuir uniformente as datas de compra
-|          | > Distribuír os dados  mensalmente, não ultrapassar 12 meses.
-|          | > Exportar para um arquivo csv |
-<br> 
--   Com o csv criado apartir do prompt acima então agora de vemos selecionar o o dataset que será usado para treinar o modelo de previsão de estoque.
--   Faça o upload do dataset no SageMaker Canvas.
 
 
 ### 3. Analisar
