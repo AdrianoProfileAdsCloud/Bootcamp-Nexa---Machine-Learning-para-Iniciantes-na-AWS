@@ -1,4 +1,4 @@
-# 📊 Previsão de Estoque Inteligente na AWS com [SageMaker Canvas](https://aws.amazon.com/pt/sagemaker/canvas/)
+ 📊 Previsão de Estoque Inteligente na AWS com [SageMaker Canvas](https://aws.amazon.com/pt/sagemaker/canvas/)
 
 > **_NOTE:_**  Desafio de projeto "Previsão de Estoque Inteligente na AWS com SageMaker Canvas. 
 Tem como objetivo, demostrar os conhecimentos adquiridos ao longo do Bootcamp "Nexa - Machine Learning para Iniciantes na AWS". 
@@ -50,11 +50,8 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 |          | > Distribuir uniformente as datas de compra
 |          | > Distribuír os dados  mensalmente, não ultrapassar 12 meses.
 |          | > Exportar para um arquivo csv |
-
-
-
- 
--   Escolha o dataset que você usará para treinar seu modelo de previsão de estoque.
+<br> 
+-   Com o csv criado apartir do prompt acima então agora de vemos selecionar o o dataset que será usado para treinar o modelo de previsão de estoque.
 -   Faça o upload do dataset no SageMaker Canvas.
 
 ### 2. Construir/Treinar
