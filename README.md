@@ -19,6 +19,11 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
 ## 🚀 Passo a Passo
 
+### 1. Criar um dominio.
+- Será neste Dominio que ficara centralizadas todas configurações e projetos futuros. Servindo também para outras aplicaçoes que compoem o ecosistema SageMaker.
+
+
+
 ### 1. Selecionar Dataset
 
 -   Após ter criado a conta na AWS. Busque pelo Serviço do SageMaker.
