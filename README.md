@@ -82,7 +82,11 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 ### 2. Construir/Treinar
 
 - Na Home do SageMaker Canvas quando entramos existem alguns cards com algumas opções: "Create a Model", "ExploreGenerativa IA" e "Explore ready-to-use-Models".
-- Para nosso proposito iremos selecionar o primeiro card "Create a Model".Para criarmos um modelo customizado.
+ Para nosso proposito iremos selecionar o primeiro card "Create a Model".Para criarmos um modelo customizado.
+<br>
+
+![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/CriandoUmModeloCustomizado.png)
+
 
 -   No SageMaker Canvas, importe o dataset que você selecionou.
 -   Configure as variáveis de entrada e saída de acordo com os dados.
