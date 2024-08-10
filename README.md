@@ -83,10 +83,6 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 -   Com o csv criado apartir do prompt acima então agora de vemos selecionar o o dataset que será usado para treinar o modelo de previsão de estoque.
 -   Faça o upload do dataset no SageMaker Canvas.
 
-
-
-
-
 - Clicando no botão <<Create Dataset>>
 
 <br>
@@ -151,6 +147,15 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 <br>
 
   ![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/TiposDeBuild.png)
+
+  <br>
+
+  - É importante avisar que enquanto houver incosistência no dataset importado, seremos avisados para corrigir antes de prosseguir! Na verdade nem segue enquando não estiver tudo ok.
+
+<br>
+
+ ![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/ErrosNoBuild.png)
+
 
 
 ### 3. Analisar
