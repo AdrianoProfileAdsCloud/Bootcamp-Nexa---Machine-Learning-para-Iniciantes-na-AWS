@@ -46,19 +46,15 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
 ### 2. Selecionar Dataset
 
-- Seguindo nossos Objetivos.O próximo passo e selecionar nosso Dataset.Neste ponto é muito interessante, porque ele já nós traz uma serie de Dataset pre estabelecidos pronto para uso.Como  mostra a imagem abaixo. Para este projeto como já dito anteriormente utilizarei um criado por mim com auxilio de IA(ChatGPT).
+- Seguindo nossos Objetivos.O próximo passo e selecionar nosso Dataset.Neste ponto é muito interessante, porque ele já nós traz uma serie de Dataset pre estabelecidos pronto para treinar e testar nossos modelo de ML.Como  mostra a imagem abaixo. Para este projeto como já dito anteriormente utilizarei um criado por mim com auxilio de IA(ChatGPT).
 
 <br>
 
 ![image]( https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/SelecionandoDataSet.png)
  
+<br>
 
-
-
-
--   Navegue até a pasta `datasets` deste repositório. Esta pasta contém os datasets que podemos escolher para treinar e testar nossos modelo de ML. Para este projeto criei com o auxilio de IA os dados para treinamento do modelo.Segue ana pasta Data deste repositório:
-
->## :keyboard: Seguem os prompts utilizados para gerar esse conteúdo.
+>## :keyboard: Segue o prompt utilizado para gerar os dados para treinar o Modelo.
 >
 >ChatGPT/Copilot：
 
@@ -84,6 +80,9 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 -   Faça o upload do dataset no SageMaker Canvas.
 
 ### 2. Construir/Treinar
+
+- Na Home do SageMaker Canvas quando entramos existem alguns cards com algumas opções: "Create a Model", "ExploreGenerativa IA" e "Explore ready-to-use-Models".
+- Para nosso proposito iremos selecionar o primeiro card "Create a Model".Para criarmos um modelo customizado.
 
 -   No SageMaker Canvas, importe o dataset que você selecionou.
 -   Configure as variáveis de entrada e saída de acordo com os dados.
