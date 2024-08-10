@@ -71,7 +71,9 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 ![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/Criando%20o%20dataset.png)
 
 <br>
+
 - Selecione e faça a importação dos dados desejados.
+
 <br>
 
 ![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/Importar%20os%20dados%20para%20o%20Dataset.png)
