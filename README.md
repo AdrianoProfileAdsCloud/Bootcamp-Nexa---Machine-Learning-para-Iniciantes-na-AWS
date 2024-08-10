@@ -26,6 +26,7 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
 <br>
 - Após ter realizado a criação do dominio, quando clicamos em canvas o dominio automaticamente é reconhecido.Então clicamos em "Open Canvas".
+
 <br>
 
 ![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/DominioReconhecido.png)
