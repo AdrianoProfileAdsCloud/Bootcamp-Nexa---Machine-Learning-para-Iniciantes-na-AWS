@@ -52,14 +52,6 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
 <br>
 
-- Inclusivel entre essas configurações se encontra uma opção muito útil para o que estamos tentando prever que e a programação de feriados.
-
-  <br>
-
-  ![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/FeriadosParaPrecisaodaPrevisao.png)
-
-
-
 ### 3. Selecionar Dataset
 
 - Seguindo nossos Objetivos.O próximo passo e selecionar nosso Dataset.Neste ponto é muito interessante, porque ele já nós traz uma serie de Dataset pre estabelecidos pronto para treinar e testar nossos modelo de ML.Como  mostra a imagem abaixo. Para este projeto como já dito anteriormente utilizarei um criado por mim com auxilio de IA(ChatGPT).Clicando no botão <<Create Dataset>>
@@ -104,11 +96,19 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
  <br>
 
- - Podemo alterar outras configurações aqui.
+ - Podemos alterar outras configurações aqui.
 
    <br>
 
 ![image]( https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/ConfDaGuiaBuid.png)
+
+<br>
+
+- Inclusivel entre essas configurações se encontra uma opção muito útil para o que estamos tentando prever que e a programação de feriados.
+
+ <br>
+
+  ![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/FeriadosParaPrecisaodaPrevisao.png)
   
  
 -   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
