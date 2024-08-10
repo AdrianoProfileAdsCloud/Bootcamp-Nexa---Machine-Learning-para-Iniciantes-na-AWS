@@ -42,9 +42,20 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
 ![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/TelaDoSageMakerCanvas.png)
 
+### 2. Construir/Treinar
+
+- Na Home do SageMaker Canvas quando entramos existem alguns cards com algumas opções: "Create a Model", "ExploreGenerativa IA" e "Explore ready-to-use-Models".
+ Para nosso proposito iremos selecionar o primeiro card "Create a Model".Para criarmos um modelo customizado.
+<br>
+
+![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/CriandoUmModeloCustomizado.png)
 
 
-### 2. Selecionar Dataset
+-   No SageMaker Canvas, importe o dataset que você selecionou.
+-   Configure as variáveis de entrada e saída de acordo com os dados.
+-   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
+
+### 3. Selecionar Dataset
 
 - Seguindo nossos Objetivos.O próximo passo e selecionar nosso Dataset.Neste ponto é muito interessante, porque ele já nós traz uma serie de Dataset pre estabelecidos pronto para treinar e testar nossos modelo de ML.Como  mostra a imagem abaixo. Para este projeto como já dito anteriormente utilizarei um criado por mim com auxilio de IA(ChatGPT).
 
@@ -79,18 +90,6 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 -   Com o csv criado apartir do prompt acima então agora de vemos selecionar o o dataset que será usado para treinar o modelo de previsão de estoque.
 -   Faça o upload do dataset no SageMaker Canvas.
 
-### 2. Construir/Treinar
-
-- Na Home do SageMaker Canvas quando entramos existem alguns cards com algumas opções: "Create a Model", "ExploreGenerativa IA" e "Explore ready-to-use-Models".
- Para nosso proposito iremos selecionar o primeiro card "Create a Model".Para criarmos um modelo customizado.
-<br>
-
-![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/CriandoUmModeloCustomizado.png)
-
-
--   No SageMaker Canvas, importe o dataset que você selecionou.
--   Configure as variáveis de entrada e saída de acordo com os dados.
--   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
 
 ### 3. Analisar
 
