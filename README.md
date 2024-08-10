@@ -87,7 +87,15 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 ![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/AposSelecaoDoDataset.png)
 
   
--   Configure as variáveis de entrada e saída de acordo com os dados.
+-   Na guia Buid, devemos selecionar a coluna do que será previsto.
+
+ <br>
+
+![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/EscolaDaColunaDePrevisao.png)
+
+
+ <br>
+ 
 -   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
 
 >## :keyboard: Segue o prompt utilizado para gerar os dados para treinar o Modelo.
