@@ -44,7 +44,14 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
 
 
-### 1. Selecionar Dataset
+### 2. Selecionar Dataset
+
+- Seguindo nossos Objetivos.O próximo passo e selecionar nosso Dataset.
+
+<br>
+
+![image]( https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/SelecionandoDataSet.png)
+ 
 
 
 
