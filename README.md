@@ -93,8 +93,14 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
 ![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/EscolaDaColunaDePrevisao.png)
 
-
  <br>
+
+ - Podemo alterar outras configurações aqui.
+
+   <br>
+
+![image]( https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/ConfDaGuiaBuid.png)
+  
  
 -   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
 
