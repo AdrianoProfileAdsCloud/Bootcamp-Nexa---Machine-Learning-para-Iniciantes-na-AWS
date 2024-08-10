@@ -27,7 +27,7 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
 
 
--   Navegue até a pasta `datasets` deste repositório. Esta pasta contém os datasets que podemos escolher para treinar e testar nossos modelo de ML. Para este projeto criei com o auxilio de IA os dados para treinamento do modelo.Segue abaixo o prompt:
+-   Navegue até a pasta `datasets` deste repositório. Esta pasta contém os datasets que podemos escolher para treinar e testar nossos modelo de ML. Para este projeto criei com o auxilio de IA os dados para treinamento do modelo.Segue ana pasta Data deste repositório:
 
 >## :keyboard: Seguem os prompts utilizados para gerar esse conteúdo.
 >
