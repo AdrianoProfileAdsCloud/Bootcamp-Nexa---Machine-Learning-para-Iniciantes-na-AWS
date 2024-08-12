@@ -80,6 +80,58 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 |          | > Distribuír os dados  mensalmente, não ultrapassar 12 meses.
 |          | > Exportar para um arquivo csv |
 <br> 
+
+- Observação:
+  Pode ser que o ChatGPT não gere o arquivo diretamente, fiz algumas vezes ele gerou o arquivo para download em outras vezes foi necessário executar alguns passos no VSCode para poder gerar o arquivo.
+
+ ```python
+
+ import pandas as pd
+import random
+from datetime import datetime, timedelta
+
+# Configurações
+num_registros = 1000
+produtos = [
+    "Arroz", "Feijão", "Óleo", "Leite", "Farinha de Trigo",
+    "Açúcar", "Sal", "Macarrão", "Café", "Manteiga",
+    "Queijo", "Presunto", "Molho de Tomate", "Aveia", "Farinha de Mandioca"
+]
+
+# Função para gerar dados aleatórios
+def gerar_dados():
+    dados = []
+    hoje = datetime.today()
+    for i in range(num_registros):
+        id_produto = i + 1
+        nome_do_produto = random.choice(produtos)
+        preco_produto = round(random.uniform(1.0, 20.0), 2)
+        qtd_em_estoque = random.randint(0, 200)
+        qtd_produto_vendido = random.randint(0, qtd_em_estoque)
+        produto_em_promocao = random.choice(["SIM", "NÃO"])
+        qtd_dias_em_promocao = random.randint(0, 30) if produto_em_promocao == "SIM" else 0
+        data_compra = hoje - timedelta(days=random.randint(0, 365))
+        dados.append([
+            id_produto, nome_do_produto, preco_produto, qtd_em_estoque, qtd_produto_vendido,
+            produto_em_promocao, qtd_dias_em_promocao, data_compra.strftime("%Y-%m-%d")
+        ])
+    return dados
+
+# Gerar dados e criar DataFrame
+dados = gerar_dados()
+df = pd.DataFrame(dados, columns=[
+    "ID_PRODUTO", "NOME_DO_PRODUTO", "PRECO_PRODUTO", "QTD_EM_ESTOQUE",
+    "QTD_PRODUTO_VENDIDO", "PRODUTO_EM_PROMOCAO", "QTD_DIAS_EM_PROMOCAO", "DATA_COMPRA"
+])
+
+# Exportar para CSV
+df.to_csv("produtos_dados.csv", index=False)
+
+print("Arquivo CSV gerado com sucesso!")
+
+```
+
+  
 -   Com o csv criado apartir do prompt acima então agora de vemos selecionar o o dataset que será usado para treinar o modelo de previsão de estoque.
 -   Faça o upload do dataset no SageMaker Canvas.
 
