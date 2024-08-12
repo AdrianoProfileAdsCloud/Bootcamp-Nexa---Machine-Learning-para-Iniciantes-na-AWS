@@ -141,6 +141,14 @@ Certifique-se de que as bibliotecas pandas e numpy estão instaladas. Você pode
 ```python
 pip install pandas
 ```
+<br>
+
+- Execute o Código:
+Copie o código acima para um arquivo Python (por exemplo, gerar_dados.py) e execute-o:
+
+```python
+python gerar_dados.py
+```
 
   
 -   Com o csv criado apartir do prompt acima então agora de vemos selecionar o o dataset que será usado para treinar o modelo de previsão de estoque.
