@@ -82,7 +82,7 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 <br> 
 
 - Observação:
-  Pode ser que o ChatGPT não gere o arquivo diretamente, fiz algumas vezes ele gerou o arquivo para download em outras vezes foi necessário executar alguns passos no VSCode para poder gerar o arquivo.
+  Pode ser que o ChatGPT não gere o arquivo diretamente, fiz algumas vezes ele gerou o arquivo para download em outras vezes foi necessário executar alguns passos no VSCode para poder gerar o arquivo.O código abaixo assim como as instruções de como gerar o arquivo é fornecido pelo próprio ChatGPT quando ele não gera o arquivo automaticamente para download.
 
  ```python
 
@@ -137,6 +137,7 @@ print("Arquivo CSV gerado com sucesso!")
  - Instale as Bibliotecas Necessárias:
 Certifique-se de que as bibliotecas pandas e numpy estão instaladas. Você pode instalar usando pip:
 <br>
+
 ```python
 pip install pandas
 ```
