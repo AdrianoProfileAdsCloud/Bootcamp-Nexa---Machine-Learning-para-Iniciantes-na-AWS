@@ -130,6 +130,12 @@ df.to_csv("produtos_dados.csv", index=False)
 print("Arquivo CSV gerado com sucesso!")
 
 ```
+<br>
+
+## Como Executar.
+
+ - Instale as Bibliotecas Necessárias:
+Certifique-se de que as bibliotecas pandas e numpy estão instaladas. Você pode instalar usando pip:
 
   
 -   Com o csv criado apartir do prompt acima então agora de vemos selecionar o o dataset que será usado para treinar o modelo de previsão de estoque.
