@@ -136,6 +136,10 @@ print("Arquivo CSV gerado com sucesso!")
 
  - Instale as Bibliotecas Necessárias:
 Certifique-se de que as bibliotecas pandas e numpy estão instaladas. Você pode instalar usando pip:
+<br>
+```python
+pip install pandas
+```
 
   
 -   Com o csv criado apartir do prompt acima então agora de vemos selecionar o o dataset que será usado para treinar o modelo de previsão de estoque.
