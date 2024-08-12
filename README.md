@@ -149,6 +149,9 @@ Copie o código acima para um arquivo Python (por exemplo, gerar_dados.py) e exe
 ```python
 python gerar_dados.py
 ```
+<br>
+ Isso criará um arquivo produtos_dados.csv no mesmo diretório onde o script foi executado, contendo os dados gerados.
+ <br>
 
   
 -   Com o csv criado apartir do prompt acima então agora de vemos selecionar o o dataset que será usado para treinar o modelo de previsão de estoque.
