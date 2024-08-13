@@ -255,18 +255,22 @@ python gerar_dados.py
  Em geral é considerado satisfatório um modelo preciso quando os valores detas métricas estiverem próximas de ZERO.
  <br>
 
- De acordo com o modelo treinado podemos dizer analisando a imagem acima após o build podemos ver o impacto de cada coluna na predição(Previsão )de dados:
-
- 
-
-
--   Após o treinamento, examine as métricas de performance do modelo.
--   Verifique as principais características que influenciam as previsões.
--   Faça ajustes no modelo se necessário e re-treine até obter um desempenho satisfatório.
+-   Com o modelo já treinado podemos examinar as métricas de performance do modelo.
+-   Verificar as principais características que influenciam as previsões.
+-   Podemos e devemos realizar ajustes no modelo e re-treina-lo até obter um desempenho satisfatório de acordo com as métricas exlicadas acima.
 
 ### 4. Prever
+<br>
 
--   Use o modelo treinado para fazer previsões de estoque.
+![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/AnaliseDePredi%C3%A7%C3%A3o.png)
+
+<br>
+
+![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/AnaliseDaPreci%C3%A7%C3%A3oEseusPesos.png)
+
+<br>
+
+-   Este modelo treinado ajudará fazer previsões de estoque.Para sabermos a um determinado prazo o que devemos ter em estoque ou não. Pois de acordo com a analise das métricas podemos ver os produtos de maior procura e os que menos são procurados. Inclusivé saber quando ocorre esta procura se são em dias de semana, finais de semana ou em feriados.
 -   Exporte os resultados e analise as previsões geradas.
 -   Documente suas conclusões e qualquer insight obtido a partir das previsões.
 
