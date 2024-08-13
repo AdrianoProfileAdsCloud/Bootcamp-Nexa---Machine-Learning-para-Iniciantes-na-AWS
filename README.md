@@ -271,8 +271,6 @@ python gerar_dados.py
 <br>
 
 -   Este modelo treinado ajudará fazer previsões de estoque.Para sabermos a um determinado prazo o que devemos ter em estoque ou não. Pois de acordo com a analise das métricas podemos ver os produtos de maior procura e os que menos são procurados. Inclusivé saber quando ocorre esta procura se são em dias de semana, finais de semana ou em feriados.
--   Exporte os resultados e analise as previsões geradas.
--   Documente suas conclusões e qualquer insight obtido a partir das previsões.
 
   # Entendendo os percentis (P10,P50 e P90)
   <br>
