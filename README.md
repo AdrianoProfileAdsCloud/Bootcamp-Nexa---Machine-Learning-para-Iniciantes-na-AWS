@@ -247,6 +247,17 @@ python gerar_dados.py
   **MAPE** É uma métrica direta e amplamente usada para avaliar a precisão da previsão, com sua principal força sendo sua interpretabilidade como uma porcentagem de erro. No entanto, deve-se tomar cuidado em situações em que os valores reais podem ser próximos de zero, pois isso pode levar a valores de erro enganosamente altos.
   <br>
  **WAPE** Fornece uma medida mais robusta e realista da precisão da previsão em comparação ao MAPE, particularmente em casos com grande variabilidade nos valores reais. Ele pondera os erros de acordo com o tamanho dos valores reais, oferecendo um melhor reflexo do desempenho geral da previsão.
+ <br>
+ **RMSE** É uma métrica valiosa para avaliar a precisão da previsão, particularmente quando erros maiores são mais críticos e devem ser penalizados mais pesadamente. Sua sensibilidade a erros grandes e interpretação direta o tornam útil para
+ <br>
+ **MASE** Fornece uma medida normalizada de precisão de previsão ao comparar um modelo de previsão a um modelo de benchmark ingênuo. Sua independência de escala e capacidade de lidar com dados sazonais tornam o MASE uma ferramenta valiosa para avaliar a precisão de modelos de previsão, especialmente em cenários com variação significativa de escala ou padrões sazonais.
+ <br>
+ Em geral é considerado satisfatório um modelo preciso quando os valores detas métricas estiverem próximas de ZERO.
+ <br>
+
+ De acordo com o modelo treinado podemos dizer analisando a imagem acima após o build podemos ver o impacto de cada coluna na predição(Previsão )de dados:
+
+ 
 
 
 -   Após o treinamento, examine as métricas de performance do modelo.
