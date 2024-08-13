@@ -240,6 +240,14 @@ python gerar_dados.py
 
 <br>
 
+# Entendendo um pouco as Métricas.
+
+  **wQLA** Average Weighted Quantile Loss (wQL) é uma métrica usada para avaliar a precisão de previsões probabilísticas. Aqui está uma análise do conceito:
+  <br>
+  **MAPE** É uma métrica direta e amplamente usada para avaliar a precisão da previsão, com sua principal força sendo sua interpretabilidade como uma porcentagem de erro. No entanto, deve-se tomar cuidado em situações em que os valores reais podem ser próximos de zero, pois isso pode levar a valores de erro enganosamente altos.
+  <br>
+ **WAPE** Fornece uma medida mais robusta e realista da precisão da previsão em comparação ao MAPE, particularmente em casos com grande variabilidade nos valores reais. Ele pondera os erros de acordo com o tamanho dos valores reais, oferecendo um melhor reflexo do desempenho geral da previsão.
+
 
 -   Após o treinamento, examine as métricas de performance do modelo.
 -   Verifique as principais características que influenciam as previsões.
