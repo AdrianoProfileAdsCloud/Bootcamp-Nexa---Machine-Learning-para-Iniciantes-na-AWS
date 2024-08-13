@@ -157,11 +157,11 @@ python gerar_dados.py
 -   Com o csv criado apartir do prompt acima então agora de vemos selecionar o o dataset que será usado para treinar o modelo de previsão de estoque.
 -   Faça o upload do dataset no SageMaker Canvas.
 
-- Clicando no botão Importar
+- Clicando no botão Importar --> Tabular.
 
 <br>
 
-![image]( https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/SelecionandoDataSet.png)
+![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/ImportandoODataSet.png)
  
 <br>
 
