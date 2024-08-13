@@ -288,5 +288,9 @@ python gerar_dados.py
   Desta forma conseguir analisar a demanda por determinado produto seja ela pessimista, normal ou otmista.Com base nessa alalise podemos ter um estoque mais coerente,no que diz respeito a compra de produtos certos de acordo com sua procura.
   <br>
   Ao final podemos exortar a predição em dois formatos: CSV ou IMAGEN.
+  <br>
+
+![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/Exportando%20a%20predi%C3%A7%C3%A3o%20realizada.png)
+  
 
 
