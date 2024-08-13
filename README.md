@@ -286,5 +286,7 @@ python gerar_dados.py
   **P10** Significa uma previsão otimista
   <br>
   Desta forma conseguir analisar a demanda por determinado produto seja ela pessimista, normal ou otmista.Com base nessa alalise podemos ter um estoque mais coerente,no que diz respeito a compra de produtos certos de acordo com sua procura.
+  <br>
+  Ao final podemos exortar a predição em dois formatos: CSV ou IMAGEN.
 
 
