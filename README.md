@@ -157,7 +157,7 @@ python gerar_dados.py
 -   Com o csv criado apartir do prompt acima então agora de vemos selecionar o o dataset que será usado para treinar o modelo de previsão de estoque.
 -   Faça o upload do dataset no SageMaker Canvas.
 
-- Clicando no botão <<Create Dataset>>
+- Clicando no botão Importar
 
 <br>
 
