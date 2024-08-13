@@ -64,20 +64,20 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
 |   Ação   |                                     Prompt                                                                                                                                                                                                                                                                         |
 | :------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Conteúdo | Crie uma massa de dados para machine learning de pelo menos 1000 registros de produtos de caracter alimentícios 
-|          | de consumo básico diário como Arroz, Feijão, Óleo, Leite,  Farinha de Trigo etc , conforme as regras abaixo:
-|          | > Crie uma coluna identificadora ID_PRODUTO
+| Conteúdo | Atue como um cientista de dados e crie um dataset para treinar um modelo de Machine Learning de pelo menos 1000 registros de produtos de carácter alimentícios como arroaz, 
+|          | feijão, macarrão, leite, açúcar conforme as regras abaixo para um Sistema de Gerenciamento Inteligente de estoque:
+|          | > Crie uma coluna identificadora ID_PRODUTO, número incremental
+|          | > ID_PRODUTO 10 diferentes por dia
 |          | > Crie uma coluna NOME_DO_PRODUTO
 |          | > Crie uma coluna PRECO_PODUTO
 |          | >  Crie uma coluna QTD_EM_ESTOQUE
 |          | >  Crie uma coluna QTD_PRODUTO_VENDIDO
 |          | > Crie uma coluna PRODUTO_EM_PROMOCAO
 |          | > Crie uma coluna QTD_DIAS_EM_PROMOCAO
-|  Regras  | > Crie uma coluna DATA_COMPRA
-|          | > Gere uma massa de dados para Machine learning de forma consistente, de forma que tenha uma boa variação de dados nas colunas QTD_PRODUTO_VENDIDO e QTD_DIAS_EM_PROMOCAO ,  |          |    com base no estoque 
+|  Regras  | > Crie uma coluna DATA_COMPRA inicando por 2022 até 2024
+|          | > Gere dados de forma consistente, de tal modo que tenha uma boa variação de dados nas colunas QTD_PRODUTO_VENDIDO e QTD_DIAS_EM_PROMOCAO 
+|          | > Garantir que cada produto tenha uma quantidade inicial em estoque e o mesmo vá decrescendo de maneira variavel dia a dia em relação a QTD_PRODUTO_VENDIDO
 |          | > Marcar PRODUTO_EM_PROMOCAO como SIM e NÃO 
-|          | > Distribuir uniformente as datas de compra
-|          | > Distribuír os dados  mensalmente, não ultrapassar 12 meses.
 |          | > Exportar para um arquivo csv |
 <br> 
 
