@@ -233,6 +233,13 @@ python gerar_dados.py
 
 
 ### 3. Analisar
+<br>
+
+ ![image](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Nexa-Machine-Learning-para-Iniciantes-na-AWS/blob/main/imagens/Predi%C3%A7%C3%A3o.png
+)
+
+<br>
+
 
 -   Após o treinamento, examine as métricas de performance do modelo.
 -   Verifique as principais características que influenciam as previsões.
