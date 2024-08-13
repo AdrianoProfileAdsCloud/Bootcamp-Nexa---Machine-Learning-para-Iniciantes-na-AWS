@@ -274,4 +274,13 @@ python gerar_dados.py
 -   Exporte os resultados e analise as previsões geradas.
 -   Documente suas conclusões e qualquer insight obtido a partir das previsões.
 
-# EM Construção!!!!! Previsão de três dias para Terminar!!!! Até.....
+  # Entendendo os percentis (P10,P50 e P90)
+  <br>
+  Esses percentis representam as previsões, em que:
+  <br>
+
+  **P10** Siginificado uma previsão pessimista
+  **P50** Significado uma previsão normal
+  **P10** Significa uma previsão otimista
+
+
